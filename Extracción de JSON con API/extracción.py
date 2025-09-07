@@ -22,7 +22,7 @@ if response.status_code == 200:
                 print("-- Valoracion: ", review.get('rating'))
                 print("-- Commentario: ", review.get('comment'))
         else:
-            print("Reseñas: (sin reseñas)")
+            print("Reseñas: (sin reseñas del producto)")
 
         print("-" * 40)
 
