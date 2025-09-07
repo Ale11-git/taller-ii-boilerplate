@@ -9,3 +9,4 @@ titulos = soup.find_all("h3")
 
 for titulo in titulos:
     print(titulo.get_text())
+    print("----------------")
