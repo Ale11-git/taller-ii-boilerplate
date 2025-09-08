@@ -1,0 +1,510 @@
+ID: 1
+Nombre: Essence Mascara Lash Princess
+Precio: 9.99
+Marca: Essence
+Categoría: beauty
+Reseñas:
+-- Usuario: Eleanor Collins
+-- Valoracion: 3
+-- Comentario: Would not recommend!
+-- Usuario: Lucas Gordon
+-- Valoracion: 4
+-- Comentario: Very satisfied!
+-- Usuario: Eleanor Collins
+-- Valoracion: 5
+-- Comentario: Highly impressed!
+----------------------------------------
+
+ID: 2
+Nombre: Eyeshadow Palette with Mirror
+Precio: 19.99
+Marca: Glamour Beauty
+Categoría: beauty
+Reseñas:
+-- Usuario: Savannah Gomez
+-- Valoracion: 5
+-- Comentario: Great product!
+-- Usuario: Christian Perez
+-- Valoracion: 4
+-- Comentario: Awesome product!
+-- Usuario: Nicholas Bailey
+-- Valoracion: 1
+-- Comentario: Poor quality!
+----------------------------------------
+
+ID: 3
+Nombre: Powder Canister
+Precio: 14.99
+Marca: Velvet Touch
+Categoría: beauty
+Reseñas:
+-- Usuario: Alexander Jones
+-- Valoracion: 4
+-- Comentario: Would buy again!
+-- Usuario: Elijah Cruz
+-- Valoracion: 5
+-- Comentario: Highly impressed!
+-- Usuario: Avery Perez
+-- Valoracion: 1
+-- Comentario: Very dissatisfied!
+----------------------------------------
+
+ID: 4
+Nombre: Red Lipstick
+Precio: 12.99
+Marca: Chic Cosmetics
+Categoría: beauty
+Reseñas:
+-- Usuario: Liam Garcia
+-- Valoracion: 4
+-- Comentario: Great product!
+-- Usuario: Ruby Andrews
+-- Valoracion: 5
+-- Comentario: Great product!
+-- Usuario: Clara Berry
+-- Valoracion: 5
+-- Comentario: Would buy again!
+----------------------------------------
+
+ID: 5
+Nombre: Red Nail Polish
+Precio: 8.99
+Marca: Nail Couture
+Categoría: beauty
+Reseñas:
+-- Usuario: Benjamin Wilson
+-- Valoracion: 2
+-- Comentario: Poor quality!
+-- Usuario: Liam Smith
+-- Valoracion: 5
+-- Comentario: Great product!
+-- Usuario: Clara Berry
+-- Valoracion: 1
+-- Comentario: Very unhappy with my purchase!
+----------------------------------------
+
+ID: 6
+Nombre: Calvin Klein CK One
+Precio: 49.99
+Marca: Calvin Klein
+Categoría: fragrances
+Reseñas:
+-- Usuario: Layla Young
+-- Valoracion: 2
+-- Comentario: Very disappointed!
+-- Usuario: Daniel Cook
+-- Valoracion: 4
+-- Comentario: Fast shipping!
+-- Usuario: Jacob Cooper
+-- Valoracion: 3
+-- Comentario: Not as described!
+----------------------------------------
+
+ID: 7
+Nombre: Chanel Coco Noir Eau De
+Precio: 129.99
+Marca: Chanel
+Categoría: fragrances
+Reseñas:
+-- Usuario: Ruby Andrews
+-- Valoracion: 4
+-- Comentario: Highly impressed!
+-- Usuario: Leah Henderson
+-- Valoracion: 5
+-- Comentario: Awesome product!
+-- Usuario: Xavier Wright
+-- Valoracion: 5
+-- Comentario: Very happy with my purchase!
+----------------------------------------
+
+ID: 8
+Nombre: Dior J'adore
+Precio: 89.99
+Marca: Dior
+Categoría: fragrances
+Reseñas:
+-- Usuario: Nicholas Bailey
+-- Valoracion: 5
+-- Comentario: Great value for money!
+-- Usuario: Penelope Harper
+-- Valoracion: 4
+-- Comentario: Great value for money!
+-- Usuario: Emma Miller
+-- Valoracion: 4
+-- Comentario: Great product!
+----------------------------------------
+
+ID: 9
+Nombre: Dolce Shine Eau de
+Precio: 69.99
+Marca: Dolce & Gabbana
+Categoría: fragrances
+Reseñas:
+-- Usuario: Mateo Bennett
+-- Valoracion: 4
+-- Comentario: Would buy again!
+-- Usuario: Nolan Gonzalez
+-- Valoracion: 4
+-- Comentario: Highly recommended!
+-- Usuario: Aurora Lawson
+-- Valoracion: 5
+-- Comentario: Very happy with my purchase!
+----------------------------------------
+
+ID: 10
+Nombre: Gucci Bloom Eau de
+Precio: 79.99
+Marca: Gucci
+Categoría: fragrances
+Reseñas:
+-- Usuario: Cameron Perez
+-- Valoracion: 1
+-- Comentario: Very dissatisfied!
+-- Usuario: Daniel Cook
+-- Valoracion: 5
+-- Comentario: Very happy with my purchase!
+-- Usuario: Addison Wright
+-- Valoracion: 4
+-- Comentario: Highly impressed!
+----------------------------------------
+
+ID: 11
+Nombre: Annibale Colombo Bed
+Precio: 1899.99
+Marca: Annibale Colombo
+Categoría: furniture
+Reseñas:
+-- Usuario: Christopher West
+-- Valoracion: 2
+-- Comentario: Would not recommend!
+-- Usuario: Vivian Carter
+-- Valoracion: 4
+-- Comentario: Highly impressed!
+-- Usuario: Mason Wright
+-- Valoracion: 1
+-- Comentario: Poor quality!
+----------------------------------------
+
+ID: 12
+Nombre: Annibale Colombo Sofa
+Precio: 2499.99
+Marca: Annibale Colombo
+Categoría: furniture
+Reseñas:
+-- Usuario: Christian Perez
+-- Valoracion: 3
+-- Comentario: Very unhappy with my purchase!
+-- Usuario: Lillian Bishop
+-- Valoracion: 5
+-- Comentario: Fast shipping!
+-- Usuario: Lillian Simmons
+-- Valoracion: 1
+-- Comentario: Poor quality!
+----------------------------------------
+
+ID: 13
+Nombre: Bedside Table African Cherry
+Precio: 299.99
+Marca: Furniture Co.
+Categoría: furniture
+Reseñas:
+-- Usuario: Aaliyah Hanson
+-- Valoracion: 4
+-- Comentario: Excellent quality!
+-- Usuario: Liam Smith
+-- Valoracion: 4
+-- Comentario: Excellent quality!
+-- Usuario: Avery Barnes
+-- Valoracion: 4
+-- Comentario: Highly recommended!
+----------------------------------------
+
+ID: 14
+Nombre: Knoll Saarinen Executive Conference Chair
+Precio: 499.99
+Marca: Knoll
+Categoría: furniture
+Reseñas:
+-- Usuario: Ella Cook
+-- Valoracion: 2
+-- Comentario: Waste of money!
+-- Usuario: Clara Berry
+-- Valoracion: 2
+-- Comentario: Very dissatisfied!
+-- Usuario: Elena Long
+-- Valoracion: 5
+-- Comentario: Would buy again!
+----------------------------------------
+
+ID: 15
+Nombre: Wooden Bathroom Sink With Mirror
+Precio: 799.99
+Marca: Bath Trends
+Categoría: furniture
+Reseñas:
+-- Usuario: Logan Torres
+-- Valoracion: 4
+-- Comentario: Fast shipping!
+-- Usuario: Aria Parker
+-- Valoracion: 5
+-- Comentario: Very pleased!
+-- Usuario: Dylan Wells
+-- Valoracion: 3
+-- Comentario: Poor quality!
+----------------------------------------
+
+ID: 16
+Nombre: Apple
+Precio: 1.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Sophia Brown
+-- Valoracion: 5
+-- Comentario: Very satisfied!
+-- Usuario: Scarlett Bowman
+-- Valoracion: 1
+-- Comentario: Very dissatisfied!
+-- Usuario: William Gonzalez
+-- Valoracion: 3
+-- Comentario: Very unhappy with my purchase!
+----------------------------------------
+
+ID: 17
+Nombre: Beef Steak
+Precio: 12.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Eleanor Tyler
+-- Valoracion: 3
+-- Comentario: Would not recommend!
+-- Usuario: Alexander Jones
+-- Valoracion: 4
+-- Comentario: Fast shipping!
+-- Usuario: Natalie Harris
+-- Valoracion: 5
+-- Comentario: Great value for money!
+----------------------------------------
+
+ID: 18
+Nombre: Cat Food
+Precio: 8.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Noah Lewis
+-- Valoracion: 3
+-- Comentario: Would not recommend!
+-- Usuario: Ruby Andrews
+-- Valoracion: 3
+-- Comentario: Very unhappy with my purchase!
+-- Usuario: Ethan Thompson
+-- Valoracion: 2
+-- Comentario: Very disappointed!
+----------------------------------------
+
+ID: 19
+Nombre: Chicken Meat
+Precio: 9.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Mateo Bennett
+-- Valoracion: 5
+-- Comentario: Great product!
+-- Usuario: Jackson Evans
+-- Valoracion: 4
+-- Comentario: Highly recommended!
+-- Usuario: Sadie Morales
+-- Valoracion: 3
+-- Comentario: Not worth the price!
+----------------------------------------
+
+ID: 20
+Nombre: Cooking Oil
+Precio: 4.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Victoria McDonald
+-- Valoracion: 5
+-- Comentario: Very happy with my purchase!
+-- Usuario: Hazel Evans
+-- Valoracion: 2
+-- Comentario: Would not recommend!
+-- Usuario: Zoe Bennett
+-- Valoracion: 5
+-- Comentario: Would buy again!
+----------------------------------------
+
+ID: 21
+Nombre: Cucumber
+Precio: 1.49
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Lincoln Kelly
+-- Valoracion: 4
+-- Comentario: Great product!
+-- Usuario: Savannah Gomez
+-- Valoracion: 4
+-- Comentario: Great value for money!
+-- Usuario: James Davis
+-- Valoracion: 2
+-- Comentario: Poor quality!
+----------------------------------------
+
+ID: 22
+Nombre: Dog Food
+Precio: 10.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Nicholas Edwards
+-- Valoracion: 5
+-- Comentario: Excellent quality!
+-- Usuario: Zachary Lee
+-- Valoracion: 5
+-- Comentario: Awesome product!
+-- Usuario: Nova Cooper
+-- Valoracion: 4
+-- Comentario: Great product!
+----------------------------------------
+
+ID: 23
+Nombre: Eggs
+Precio: 2.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Penelope King
+-- Valoracion: 3
+-- Comentario: Disappointing product!
+-- Usuario: Eleanor Tyler
+-- Valoracion: 3
+-- Comentario: Poor quality!
+-- Usuario: Benjamin Foster
+-- Valoracion: 4
+-- Comentario: Very pleased!
+----------------------------------------
+
+ID: 24
+Nombre: Fish Steak
+Precio: 14.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Caleb Perkins
+-- Valoracion: 2
+-- Comentario: Would not buy again!
+-- Usuario: Isabella Jackson
+-- Valoracion: 5
+-- Comentario: Excellent quality!
+-- Usuario: Nathan Dixon
+-- Valoracion: 4
+-- Comentario: Great value for money!
+----------------------------------------
+
+ID: 25
+Nombre: Green Bell Pepper
+Precio: 1.29
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Avery Carter
+-- Valoracion: 4
+-- Comentario: Highly recommended!
+-- Usuario: Henry Hill
+-- Valoracion: 3
+-- Comentario: Would not recommend!
+-- Usuario: Addison Wright
+-- Valoracion: 5
+-- Comentario: Excellent quality!
+----------------------------------------
+
+ID: 26
+Nombre: Green Chili Pepper
+Precio: 0.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Luna Russell
+-- Valoracion: 4
+-- Comentario: Great product!
+-- Usuario: Noah Lewis
+-- Valoracion: 1
+-- Comentario: Waste of money!
+-- Usuario: Clara Berry
+-- Valoracion: 3
+-- Comentario: Very disappointed!
+----------------------------------------
+
+ID: 27
+Nombre: Honey Jar
+Precio: 6.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Autumn Gomez
+-- Valoracion: 1
+-- Comentario: Very disappointed!
+-- Usuario: Benjamin Wilson
+-- Valoracion: 4
+-- Comentario: Highly impressed!
+-- Usuario: Nicholas Edwards
+-- Valoracion: 2
+-- Comentario: Very disappointed!
+----------------------------------------
+
+ID: 28
+Nombre: Ice Cream
+Precio: 5.49
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Elijah Cruz
+-- Valoracion: 5
+-- Comentario: Very pleased!
+-- Usuario: Jace Smith
+-- Valoracion: 4
+-- Comentario: Excellent quality!
+-- Usuario: Sadie Morales
+-- Valoracion: 5
+-- Comentario: Highly impressed!
+----------------------------------------
+
+ID: 29
+Nombre: Juice
+Precio: 3.99
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Nolan Gonzalez
+-- Valoracion: 5
+-- Comentario: Excellent quality!
+-- Usuario: Bella Grant
+-- Valoracion: 4
+-- Comentario: Would buy again!
+-- Usuario: Aria Flores
+-- Valoracion: 5
+-- Comentario: Awesome product!
+----------------------------------------
+
+ID: 30
+Nombre: Kiwi
+Precio: 2.49
+Marca: Sin marca
+Categoría: groceries
+Reseñas:
+-- Usuario: Emily Brown
+-- Valoracion: 4
+-- Comentario: Highly recommended!
+-- Usuario: Jackson Morales
+-- Valoracion: 2
+-- Comentario: Would not buy again!
+-- Usuario: Nora Russell
+-- Valoracion: 4
+-- Comentario: Fast shipping!
+----------------------------------------
+
