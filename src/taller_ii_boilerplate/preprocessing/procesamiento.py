@@ -66,7 +66,7 @@ def preprocess_text(text):
 
 
 #Leemos el dataset de reseñas sin procesar
-df = pd.read_csv("../../../data/raw/dataset.csv")
+df = pd.read_csv("comentarios_airbnb_completo_clean.csv")
 print("Tamaño del dataset:", df.shape)
 df.head()
 # Aplicamos el preprocseamiento a la fila de reseña
