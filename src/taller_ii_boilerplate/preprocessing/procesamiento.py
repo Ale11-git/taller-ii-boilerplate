@@ -64,11 +64,12 @@ def preprocess_text(text):
 
     return " ".join(tokens)
 
-
-#Leemos el dataset de reseñas sin procesar
-df = pd.read_csv("comentarios_airbnb_completo_clean.csv")
-print("Tamaño del dataset:", df.shape)
-df.head()
-# Aplicamos el preprocseamiento a la fila de reseña
-df["review_clean"] = df["Review_text"].apply(preprocess_text)
-print(df[["Review_text", "review_clean"]].head(10))
+if __name__ == "__main__":
+    #Leemos el dataset de reseñas sin procesar
+    df = pd.read_csv("../../../data/raw/dataset.csv")
+    print("Tamaño del dataset:", df.shape)
+    df.head()
+    # Aplicamos el preprocseamiento a la fila de reseña
+    df["review_clean"] = df["Review_text"].apply(preprocess_text)
+    print(df[["Review_text", "review_clean"]].head(10))
+    df.to_csv("../../../data/preprocessed/dataset.csv", index=False)

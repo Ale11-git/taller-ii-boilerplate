@@ -8,6 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix, f1_score
 import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import Counter
+import joblib
 
 
 df = pd.read_csv("../../../data/preprocessed/dataset.csv")
@@ -65,11 +66,11 @@ nb_bow = MultinomialNB()
 f1_nb_bow = entrenar_y_evaluar(nb_bow, X_train_bow, y_train, X_test_bow, y_test, "Naïve Bayes (BoW)")
 
 # Regresión Logística con BoW
-lr_bow = LogisticRegression(max_iter=1000, class_weight="balanced", multi_class="multinomial") #TODO cómo cambia la performance ajustando hiperparámetros?
+lr_bow = LogisticRegression(class_weight="balanced", C=0.01, penalty='l2', solver='saga') #TODO cómo cambia la performance ajustando hiperparámetros?
 f1_lr_bow = entrenar_y_evaluar(lr_bow, X_train_bow, y_train, X_test_bow, y_test, "Regresión Logística BoW)")
 
 # SVM Lineal con BoW
-svm_bow = LinearSVC(class_weight="balanced") #TODO cómo cambia la performance ajustando hiperparámetros?
+svm_bow = LinearSVC(class_weight="balanced", C=10, loss='squared_hinge', penalty='l1') #TODO cómo cambia la performance ajustando hiperparámetros?
 f1_svm_bow = entrenar_y_evaluar(svm_bow, X_train_bow, y_train, X_test_bow, y_test, "SVM Lineal (BoW)")
 
 # Naïve Bayes con TF-IDF
@@ -77,7 +78,7 @@ nb_tfidf = MultinomialNB()
 f1_nb_tfidf = entrenar_y_evaluar(nb_tfidf, X_train_tfidf, y_train, X_test_tfidf, y_test, "Naïve Bayes (TF-IDF)")
 
 # Regresión Logística con TF-IDF
-lr_tfidf = LogisticRegression(max_iter=1000, class_weight="balanced", multi_class="multinomial") #TODO cómo cambia la performance ajustando hiperparámetros?
+lr_tfidf = LogisticRegression(max_iter=1000, class_weight="balanced", multi_class="multinomial", C=0.01, penalty='l2', solver='lbfgs') #TODO cómo cambia la performance ajustando hiperparámetros?
 f1_lr_tfidf = entrenar_y_evaluar(lr_tfidf, X_train_tfidf, y_train, X_test_tfidf, y_test, "Regresión logística (TF-IDF)")
 
 # SVM Lineal
@@ -97,3 +98,7 @@ resultados = pd.DataFrame({
 
 print("\n=== Comparación de modelos ===")
 print(resultados.sort_values(by="Macro-F1", ascending=False))
+
+joblib.dump(bow_vectorizer, "../../../models/vectorizador_bow.pkl")
+joblib.dump(tfidf_vectorizer, "../../../models/vectorizador_tfidf.pkl")
+joblib.dump(nb_bow, "../../../models/modelo_nb_bow.pkl")
