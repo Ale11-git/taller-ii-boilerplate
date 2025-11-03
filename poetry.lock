@@ -893,6 +893,17 @@ test = ["POT", "pytest", "pytest-cov", "testfixtures", "visdom (>=0.1.8,!=0.1.8.
 test-win = ["POT", "pytest", "pytest-cov", "testfixtures"]
 
 [[package]]
+name = "gensin"
+version = "5"
+description = ""
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "gensin-5.tar.gz", hash = "sha256:e5293f6bb19de049a81918089df1ed2e84f5f4e67811a6d89f228572d2ff5139"},
+]
+
+[[package]]
 name = "h11"
 version = "0.16.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
@@ -3571,15 +3582,15 @@ webhdfs = ["requests"]
 
 [[package]]
 name = "smart-open"
-version = "7.4.0"
+version = "7.4.1"
 description = "Utils for streaming large files (S3, HDFS, GCS, SFTP, Azure Blob Storage, gzip, bz2, zst...)"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 markers = "python_version == \"3.13\""
 files = [
-    {file = "smart_open-7.4.0-py3-none-any.whl", hash = "sha256:ff75c536bc3c534fca8e8fbebe1f0e22cafecc1a398d096924720c995d71f34a"},
-    {file = "smart_open-7.4.0.tar.gz", hash = "sha256:cb989a38db774c5aadc416020dff21da6cea11059309f50e237d6520d6636247"},
+    {file = "smart_open-7.4.1-py3-none-any.whl", hash = "sha256:f52cb9bc897c7676dfc6996735332bd2465dfb048c73bfa9dfcdc829f48018cc"},
+    {file = "smart_open-7.4.1.tar.gz", hash = "sha256:5c20f09026875e6dec708e9610e0cd13d24d91f0a2c12e6511b9e478a566b4a0"},
 ]
 
 [package.dependencies]
@@ -3590,7 +3601,7 @@ all = ["smart_open[azure,gcs,http,s3,ssh,webhdfs,zst]"]
 azure = ["azure-common", "azure-core", "azure-storage-blob"]
 gcs = ["google-cloud-storage (>=2.6.0)"]
 http = ["requests"]
-s3 = ["boto3"]
+s3 = ["boto3 (>=1.9.17)"]
 ssh = ["paramiko"]
 test = ["awscli", "flake8", "moto[server]", "numpy", "pyopenssl", "pytest", "pytest-rerunfailures", "pytest-timeout", "pytest-xdist[psutil]", "pytest_benchmark", "responses", "smart_open[all]"]
 webhdfs = ["requests"]
@@ -4048,21 +4059,6 @@ numpy = ">=1.6.1"
 pillow = "*"
 
 [[package]]
-name = "wsproto"
-version = "1.2.0"
-description = "WebSockets state-machine based protocol implementation"
-optional = false
-python-versions = ">=3.7.0"
-groups = ["main"]
-files = [
-    {file = "wsproto-1.2.0-py3-none-any.whl", hash = "sha256:b9acddd652b585d75b20477888c56642fdade28bdfd3579aa24a4d2c037dd736"},
-    {file = "wsproto-1.2.0.tar.gz", hash = "sha256:ad565f26ecb92588a3e43bc3d96164de84cd9902482b130d0ddbaa9664a85065"},
-]
-
-[package.dependencies]
-h11 = ">=0.9.0,<1"
-
-[[package]]
 name = "wrapt"
 version = "2.0.0"
 description = "Module for decorators, wrappers and monkey patching."
@@ -4183,7 +4179,22 @@ files = [
 [package.extras]
 dev = ["pytest", "setuptools"]
 
+[[package]]
+name = "wsproto"
+version = "1.2.0"
+description = "WebSockets state-machine based protocol implementation"
+optional = false
+python-versions = ">=3.7.0"
+groups = ["main"]
+files = [
+    {file = "wsproto-1.2.0-py3-none-any.whl", hash = "sha256:b9acddd652b585d75b20477888c56642fdade28bdfd3579aa24a4d2c037dd736"},
+    {file = "wsproto-1.2.0.tar.gz", hash = "sha256:ad565f26ecb92588a3e43bc3d96164de84cd9902482b130d0ddbaa9664a85065"},
+]
+
+[package.dependencies]
+h11 = ">=0.9.0,<1"
+
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "034ef451f8e6d7f579015e28f457035bb95fb888262aa1d894943550d5411b7b"
+content-hash = "69ae2ba83a212b58e6a0f82d41e34fd67582b7d7d61e6d58cbf5d1a61594bd25"
