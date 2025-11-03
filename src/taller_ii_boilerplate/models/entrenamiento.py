@@ -5,6 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import LinearSVC
 from sklearn.metrics import classification_report, confusion_matrix, f1_score
+from sklearn.utils import resample
 import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import Counter
@@ -16,13 +17,38 @@ print("Tamaño del dataset:", df.shape)
 print(df.head())
 print("Distribución de clases:\n", df["Rating"].value_counts())
 
+# Downsampling
+# Seleccionamos unicamente las reseñas negativas
+# IMPORTANTE: CAMBIAR EL VALOR DE ETIQUETA SEGUN SUS DATASETS
+negative_reviews = df[df["Rating"] == "negative"]
+positive_reviews = df[df["Rating"] == "positive"]
+neutral_reviews = df[df["Rating"] == "neutral"]
+# Disminuimos a 20 la cantidad de reseñas negativas
+negative_downsampled = resample(negative_reviews,
+                           replace=False,
+                           n_samples=20, #Cambiar a la cantidad de reseñas negativas que quieran para que se acerque a la proporción de positivas/neutrales
+                           random_state=42)
 
+# Aumentamos (artificialmente) a 20 las reseñas positivas
+positive_upsampled = resample(positive_reviews,
+                         replace=True,
+                         n_samples=20,
+                         random_state=42)
+
+# Aumentamos (artificialmente) a 20 las reseñas neutras
+neutral_upsampled = resample(neutral_reviews,
+                         replace=True,
+                         n_samples=20,
+                         random_state=42)
+
+# Unimos las 3 partes en un único dataset
+dataset_balanced = pd.concat([negative_downsampled, positive_upsampled, neutral_upsampled])
 # Dividimos el dataset en conjunto de entrenamiento y conjunto de prueba
 X_train, X_test, y_train, y_test = train_test_split(
-    df["review_clean"], df["Rating"],
+    dataset_balanced["review_clean"], dataset_balanced["Rating"],
     test_size=0.2,
     random_state=42,
-    stratify=df["Rating"] # asegura proporción por clase
+    stratify=dataset_balanced["Rating"] # asegura proporción por clase
 )
 
 # Vectorizamos como en vectorizacion.py
